@@ -55,7 +55,7 @@ ROOT_URLCONF = 'spartatest.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['introduce/ templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
